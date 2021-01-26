@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>DAY-5 ASSIGNMENT-4 que-1</title>
+    </head>
+    <body>
+        <h1>Hello</h1>
+        Enter First Number:
+        <input type="text" id="first" value=""/><br><br>
+        Enter Second Number:
+        <input type="text" class="second" value=""/><br><br>
+        <button onclick="add()">Add</button>
+        <input type="text" id="result" value="">
+        <script>
+            function add()
+            {
+               // how can we access elements in the DOM?
+                
+                var fir = document.getElementById("first"); //getElementById it takes the value of the particular id we mentioned to access single element. 
+                var sec = document.getElementsByClassName("second"); //getElementsByClassName takes element as a array of elements.
+                var res = document.getElementsByTagName("h1"); //getElementsByTagName takes the content inside.
+                
+            }
+        </script>
+        
+    </body>
+</html>
